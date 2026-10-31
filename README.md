@@ -1,5 +1,5 @@
 ### EX3 Implementation of GSP Algorithm In Python
-### DATE: 
+### DATE: 31/10/26
 ### AIM: To implement GSP Algorithm In Python.
 ### Description:
 The Generalized Sequential Pattern (GSP) algorithm is a data mining technique used for discovering frequent patterns within a sequence database. It operates by identifying sequences that frequently occur together. GSP works by employing a depth-first search strategy to explore and extract frequent patterns efficiently.
@@ -102,6 +102,7 @@ else:
  print("No frequent sequential patterns found in Party Wear.")
 ```
 ### Output:
+<img width="1917" height="496" alt="Screenshot 2026-10-31 105909" src="https://github.com/user-attachments/assets/3e9fb07b-27d3-499f-8743-08bb3099a4a6" />
 
 ### Visualization:
 ```python
@@ -130,6 +131,9 @@ visualize_patterns_line(bottom_wear_result, 'Bottom Wear')
 visualize_patterns_line(party_wear_result, 'Party Wear')
 ```
 ### Output:
+<img width="1232" height="735" alt="Screenshot 2026-10-31 110323" src="https://github.com/user-attachments/assets/d0ebb053-ff91-4635-9aa6-82a53b07bd1d" />
+<img width="1233" height="728" alt="Screenshot 2026-10-31 110012" src="https://github.com/user-attachments/assets/75c25600-fab8-40ba-a1a8-f41919871c1d" />
 
 
 ### Result:
+GSP algorithm is successfully executed
